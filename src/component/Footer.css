@@ -8,10 +8,13 @@
 }
 
 footer {
+    width: 100%;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
     background-color: skyblue;
     color: black;
     padding: 20px;
     text-align: center;
-    width: 100%;
     line-height: 25px;
 }
