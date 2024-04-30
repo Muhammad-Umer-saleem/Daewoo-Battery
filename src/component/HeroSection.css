@@ -1,0 +1,45 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.check{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.check1{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.check img{
+    width: 10%; 
+    padding: 5px;
+}
+.check1 img{
+    width: 10%; 
+    padding: 5px;
+}
+
+.check p{
+    padding: 5px;
+}
+.check1 p{
+    padding: 5px;
+}
+

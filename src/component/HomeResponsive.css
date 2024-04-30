@@ -1,0 +1,367 @@
+@media (max-width: 1200px) {
+    .hero-section img{
+        max-width: 100%;
+        padding: 0px 2px;
+    }
+    .check{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    .check1{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .check img{
+        width: 10%; 
+        padding: 5px;
+    }
+    .check1 img{
+        width: 10%; 
+        padding: 5px;
+    }
+    
+    .check p{
+        padding: 5px;
+    }
+    .check1 p{
+        padding: 5px;
+    }
+    .content {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+        
+    .content h1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .content p {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+    }
+    
+    .centered-text { 
+        text-align: center; 
+        max-width: 800px;
+    }
+    
+    .container-img img:hover {
+        background-color: gray;  
+        cursor: pointer;         
+    }
+    
+    
+    section.Cards {
+        padding: 20px;
+    }
+    
+    .row-items {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container-box {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .container-img {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 1080px) {
+    .hero-section img{
+        width: 1650px;
+        height: auto;
+    }
+    
+    .check{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    .check1{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .check img{
+        width: 10%; 
+        padding: 5px;
+    }
+    .check1 img{
+        width: 10%; 
+        padding: 5px;
+    }
+    
+    .check p{
+        padding: 5px;
+    }
+    .check1 p{
+        padding: 5px;
+    }
+
+    .content {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    
+    .content h1 {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .content p {
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+    }
+    
+    .centered-text { 
+        text-align: center; 
+        max-width: 800px;
+    }
+
+    .row-items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    
+    .container-box {
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    .container-img{
+        width: 95%;
+    }
+    .content h1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .content p {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+    
+
+}
+
+@media (max-width: 980px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+    }
+}
+
+
+@media (max-width: 996px) {
+    #menu-items {
+        display: none;
+    }
+    
+    #menu-icon {
+        display: block;
+    }
+    .hero-section img{
+        width: 1650px;
+        height: auto;
+    }
+    
+    .check{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    .check1{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .check img{
+        width: 9%; 
+        padding: 5px;
+    }
+    .check1 img{
+        width: 9%; 
+        padding: 5px;
+    }
+    
+    .check p{
+        font-size: 2px;
+        padding: 5px;
+    }
+    .check1 p{
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .content {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    
+    .content h1 {
+        font-size: 17px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .content p {
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+    }
+    
+    .centered-text { 
+        text-align: center; 
+        max-width: 100%;
+    }
+
+    .row-items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    
+    .container-box {
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    .container-img{
+        width: 99%;
+    }
+    section.Cards{
+        width: 100%;
+        padding: 20px;
+    }
+    .boxes-text {
+        flex-direction: column;
+    }
+    .text {
+        order: 1; 
+    }
+    .text1 {
+        order: 2;
+    }
+
+    .text1 .para {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 16%;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .car-image {
+        flex-basis: 80%;
+        padding: 10px;
+    }
+    .battery-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .batteryImage {
+        flex-basis: 80%;
+        padding: 10px;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 650px) {
+    .technology-img {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .technology-img {
+        flex-basis: 80%;
+        padding: 10px;
+    }
+    .homeimg {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .home-image {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+    .Big-Battery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .Big-Battery-img {
+        padding: 10px;
+    }
+
+}
