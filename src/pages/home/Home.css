@@ -1,0 +1,267 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+  
+  .hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .check{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.check1{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.check img{
+    width: 10%; 
+    padding: 5px;
+}
+.check1 img{
+    width: 10%; 
+    padding: 5px;
+}
+
+.check p{
+    padding: 5px;
+}
+.check1 p{
+    padding: 5px;
+}
+  
+.content {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  
+  .content h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .content p {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .text-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.centered-text { 
+    text-align: center; 
+    max-width: 800px;
+}
+
+section.Cards {
+  padding: 20px;
+}
+
+.row-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img {
+  margin-bottom: 10px;
+}
+
+.boxes-text {
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  margin-right: 15px;
+}
+
+.text, .text1 {
+  width: 100%; 
+}
+
+.text1 .para {
+  text-align: center;
+  margin-right: 25%;
+}
+
+h1 {   
+  font-size: 50px;
+  line-height: 1.4;
+}
+.para {
+   text-align: right;
+  line-height: 1.6; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+
+.car-image img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.batteryImage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.battery-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+
+.technology-box{
+  width: 100%;
+}
+
+.technology-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.cards-img h3 {
+  align-items: center;
+  text-align: center;
+}
+.cards-img p {
+  align-items: center;
+  text-align: center;
+}
+
+.boxes-text {
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  margin-right: 15px;
+}
+
+.text, .text1 {
+  width: 100%; 
+}
+
+.text1 .para {
+  text-align: center;
+  margin-right: 25%;
+}
+
+h1 {   
+  font-size: 50px;
+  line-height: 1.4;
+}
+.para {
+   text-align: right;
+  line-height: 1.6; 
+}
+
+.homeimg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.home-image {
+  position: relative;
+}
+
+.home-image img {
+  border-radius: 3px;
+  width: 400px;
+  height: 100%;
+}
+
+.home-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: burlywood;
+  border: none;
+  border-radius: 3px;
+  margin-top: 90px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Big-Battery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+  
+@media (max-width: 1080px) {
+  .hero-section img{
+      max-width: 100%;
+      padding: 0px 2px;
+  }
+  .content {
+      font-size: 10px;
+  }
+}

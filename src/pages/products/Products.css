@@ -1,0 +1,79 @@
+.batteryStructureSec{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 10px ;
+    
+  }
+  .card{
+  width: 30%;
+  height: 450px;
+  padding: 12px 8px;
+  box-shadow: 1px 1px 3px rgb(127, 125, 125);
+  }
+  
+  .btrImage{
+    width: 100%;
+    height: 280px ;
+  }
+  .btrImage img{
+    width: 100%;
+    height: 100%;
+  }
+  .card:nth-child(2) .btrImage{
+    width: 70%;
+  }
+  .details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+  }
+  .detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+@media (max-width: 1200px) {
+    .card{
+      width: 310px;
+      }
+  }
+  @media (max-width: 992px) {
+    .batteryStructureSec{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 14px;
+    }
+    .card{
+      width: 320px;
+      }
+  }
+  @media (max-width: 652px) {
+    .batteryStructureSec{
+      justify-content: center;
+      gap: 16px;
+    }
+    .card{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+      }
+      .btrImage{
+        width: 100%;
+        height: 260px ;
+      }
+      .detail p{
+        font-size: 16px;
+      }
+  }
